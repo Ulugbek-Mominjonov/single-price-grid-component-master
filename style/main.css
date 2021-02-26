@@ -33,3 +33,62 @@ body {
   font-size: 16px;
   background-color: #E6EFF6;
 }
+
+.suggestion{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container{
+  width: 636px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.suggestion-community{
+  padding: 35px;
+  background-color: #fff;
+}
+.suggestion-community-title{
+  margin-top: 0;
+  margin-bottom: 30px;
+  color:hsl(179, 62%, 43%);
+}
+.suggestion-community-smaltitle{
+  font-weight: 700;
+  color: hsl(71, 73%, 54%);
+}
+.suggetion-community-text{
+  font-weight: 400;
+  line-height: 2;
+  color: hsl(218, 22%, 67%);
+}
+.suggetion-info{
+  display: flex;
+}
+.suggetion-info-tariff{
+  margin-top: 0;
+  padding: 35px;
+  background-color: #2BB3B1;
+  color: #fff;
+}
+.suggetion-info-tariff{
+  letter-spacing: 1.5px;
+}
+.suggetion-info-tariff-cost{
+  display: flex;
+  align-items: center;
+}
+.suggetion-info-tariff-cost p{
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.suggetion-info-tariff-cost span{
+  color: #7FE6EB;
+}
+.suggetion-info-tariff-text{
+  font-size: 15px;
+  color: #A8EEEE;
+}
