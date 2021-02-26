@@ -1,8 +1,8 @@
-/* fonts */
+/* ../fonts */
 @font-face {
   font-family: 'Karla';
-  src: url('fonts/Karla-Bold.woff2') format('woff2'),
-      url('fonts/Karla-Bold.woff') format('woff');
+  src: url('../fonts/Karla-Bold.woff2') format('woff2'),
+      url('../fonts/Karla-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -10,8 +10,8 @@
 
 @font-face {
   font-family: 'Karla';
-  src: url('fonts/Karla-Regular.woff2') format('woff2'),
-      url('fonts/Karla-Regular.woff') format('woff');
+  src: url('../fonts/Karla-Regular.woff2') format('woff2'),
+      url('../fonts/Karla-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -44,9 +44,13 @@ body {
   width: 636px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 1px 8px 28px 1px rgb(43 179 177 / 50%);
 }
 .suggestion-community{
   padding: 35px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
   background-color: #fff;
 }
 .suggestion-community-title{
@@ -60,20 +64,22 @@ body {
 }
 .suggetion-community-text{
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.5;
   color: hsl(218, 22%, 67%);
 }
 .suggetion-info{
   display: flex;
 }
 .suggetion-info-tariff{
+  width: 50%;
   margin-top: 0;
   padding: 35px;
+  border-bottom-left-radius: 10px;
   background-color: #2BB3B1;
   color: #fff;
 }
-.suggetion-info-tariff{
-  letter-spacing: 1.5px;
+.suggetion-info-tariff-title{
+  font-size: 18px;
 }
 .suggetion-info-tariff-cost{
   display: flex;
@@ -81,6 +87,7 @@ body {
 }
 .suggetion-info-tariff-cost p{
   font-size: 35px;
+  font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 10px;
@@ -89,6 +96,41 @@ body {
   color: #7FE6EB;
 }
 .suggetion-info-tariff-text{
+  font-size: 16px;
+  margin-bottom: 0;
+  color: #A8EEEE;
+}
+.suggetion-info-tariff-button{
+  /* display: block; */
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 1px 6px 21px -7px rgb(0 0 0 / 70%);
+  background-color: #BFDF32;
+  color: #fff;
+  outline: none;
+}
+
+.suggetion-info-cause{
+  width: 50%;
+  margin-top: 0;
+  padding: 35px;
+  border-bottom-right-radius: 10px;
+  background-color: #4ABEBD;
+  color: #fff;
+}
+.suggetion-info-cause-title{
+  font-size: 18px;
+}
+.suggetion-info-cause-list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.suggetion-info-cause-li{
   font-size: 15px;
+  padding-bottom: 5px;
   color: #A8EEEE;
 }
