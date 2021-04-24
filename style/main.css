@@ -34,18 +34,23 @@ body {
   background-color: #E6EFF6;
 }
 
-.suggestion{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
 .container{
   width: 636px;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
   box-shadow: 1px 8px 28px 1px rgb(43 179 177 / 50%);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .suggestion-community{
   padding: 35px;
